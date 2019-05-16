@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import metrics
 from sklearn.metrics import confusion_matrix
 
-testdata = pd.read_csv("/home/julian/FH/MLH/dataset.csv")
+testdata = pd.read_csv("https://raw.githubusercontent.com/ChristophRaab/MLH/master/dataset.csv")
 
 (testdata.head())
 
